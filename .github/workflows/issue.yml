@@ -7,6 +7,6 @@ jobs:
   comment-with-action
     runs-on: ubuntu-latest
     steps:
-      - name: "Dump github context
+      - name: "Dump github context"
         run: echo '${{ toJSON(github.event) }} | jq
         shell: bash
